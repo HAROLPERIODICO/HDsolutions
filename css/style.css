@@ -264,6 +264,31 @@ body {
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
 
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* From */
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="tel"]:focus {
+    border-color: #2ecc71;
+    box-shadow: 0 0 5px rgba(46, 204, 113, 0.5);
+}
+
+
 /* Testimony */
 
 .testimony{
